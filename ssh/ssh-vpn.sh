@@ -63,7 +63,7 @@ apt -y install wget curl
 apt-get install figlet -y
 apt-get install ruby -y
 gem install lolcat
-ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur /etc/localtime
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 install_ssl(){
 if [ -f "/usr/bin/apt-get" ];then
