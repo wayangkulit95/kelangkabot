@@ -18,6 +18,17 @@ LIFETIME: RM120
 
 - Sekiranya anda mendapat ralat dalam perkhidmatan panjang, anda boleh memulakan semula perkhidmatan yang mati (reboot).
 
+## UPGRADE FOR DEBIAN
+Masukkan perintah dibawah jika anda menggunakan OS Debian Version 9 atau 10
+```
+apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
+```
+
+##  UPGRADE FOR UBUNTU
+Masukkan perintah dibawah jika anda menggunakan OS Ubuntu Version 18 atau 20
+```
+apt update && apt upgrade -y && update-grub && sleep 2 && reboot
+```
 ### INSTALL SCRIPT
 <pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/wayangkulit95/kelangkabot/main/lahancau.sh && chmod +x lahancau.sh && screen -S install ./lahancau.sh</code></pre>
 
