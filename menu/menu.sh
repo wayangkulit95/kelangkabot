@@ -173,8 +173,8 @@ export NC='\033[0m'
 ###########- END COLOR CODE -##########
 tram=$( free -h | awk 'NR==2 {print $2}' )
 uram=$( free -h | awk 'NR==2 {print $3}' )
-ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
-CITY=$(curl -s ipinfo.io/city )
+#ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
+#CITY=$(curl -s ipinfo.io/city )
 
 # // Export Banner Status Information
 export EROR="[${RED} EROR ${NC}]"
